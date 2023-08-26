@@ -1,0 +1,28 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Guess the Number Game</title>
+</head>
+<body>
+  <div class="background">
+    <div id="show-score">
+      <i class="fa-solid fa-trophy trophy"></i>
+      <p id="best-score">0</p>
+    </div>
+    <div class="box">
+      <h1 class="title">Guess the Number Game</h1>
+      <p class="info">i am thinking of a number between 1-100 <br> Can you guess it?</p>
+      <p id="result-message">Guess a Number</p>
+      <div id="attempts-left">10</div>
+      <input type="number" id="guess-input" placeholder="Enter your guess">
+      <button id="guess-button" class="button">Guess</button>
+      <button id="restart-button" class="button">Restart</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
